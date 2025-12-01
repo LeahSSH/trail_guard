@@ -1,0 +1,23 @@
+{
+  "name": "crossing-moderation-bot",
+  "version": "1.0.0",
+  "description": "Discord moderation bot with point system, embeds, and auto-ban at 30 points.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "register": "node src/register-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "moderation",
+    "bot"
+  ],
+  "author": "The Crossing Administration Team",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
